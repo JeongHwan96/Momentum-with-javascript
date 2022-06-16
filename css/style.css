@@ -1,0 +1,46 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { height: 1040px; }
+
+html { font-size: 20px; }
+
+* { color: white; }
+
+input { color: black; }
+
+.clock, .Login_form, .greeting, .todo-form, .todo-list, .quote, .weather { z-index: 99; position: absolute; }
+
+.clock { text-align: center; font-size: 4.5rem; top: 20%; margin: 0 auto; width: 100%; }
+
+.greeting, .Login_form { text-align: center; font-size: 2rem; top: 40%; margin: 0 auto; width: 100%; }
+
+.hidden { display: none !important; }
+
+.bgimg { position: absolute; width: 100%; left: 0; top: 0; z-index: -5; -webkit-filter: brightness(30%); filter: brightness(30%); }
+
+.userName, .todo { width: 20rem; height: 2rem; border: none; border-radius: 5rem; text-align: center; font-size: 1rem; -webkit-filter: brightness(0.7); filter: brightness(0.7); }
+
+.userName:focus, .todo-form:focus { outline: none; -webkit-filter: brightness(0.4); filter: brightness(0.4); color: blue; }
+
+.userName:hover, .todo-form:hover { -webkit-filter: brightness(0.4); filter: brightness(0.4); -webkit-transition: .5s; transition: .5s; }
+
+.todo-form { text-align: center; font-size: 2rem; top: 55%; left: 50%; width: 22%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+
+.todo-list { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; font-size: 1rem; top: 65%; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); padding-right: 0rem; }
+
+.todo-list li { padding-right: 1rem; }
+
+.weather { text-align: center; font-size: 1rem; top: 13%; margin: 0 auto; width: 100%; }
+
+.quote { position: fixed; }
